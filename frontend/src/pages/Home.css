@@ -1,0 +1,37 @@
+/* Home.css */
+
+/* Container styling */
+.home-container {
+    text-align: center;
+    padding: 250px;
+    background-color: palevioletred;
+  }
+  
+  /* Heading style */
+  .home-container h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  /* Link styling */
+  .home-container a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    background-color: #ff7f7f;
+  }
+  
+  .home-container a:hover {
+    background-color: #ff5252;
+    transition: background-color 0.3s;
+  }
+  
+  /* Optional: Add some space for the links */
+  .home-container a:not(:last-child) {
+    margin-right: 15px;
+  }
+  
